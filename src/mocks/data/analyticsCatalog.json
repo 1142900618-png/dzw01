@@ -1,0 +1,50 @@
+{
+  "seed": 710934,
+  "start": "2026-07-24",
+  "end": "2026-11-20",
+  "defaultDays": 7,
+  "updatedAt": "2026-11-20T20:00:00+08:00",
+  "categories": [
+    { "id": "digital", "name": "数码电子", "weight": 16 },
+    { "id": "apparel", "name": "服饰鞋包", "weight": 20 },
+    { "id": "home", "name": "家居生活", "weight": 21 },
+    { "id": "beauty", "name": "美妆个护", "weight": 21 },
+    { "id": "food", "name": "食品饮料", "weight": 22 }
+  ],
+  "channels": [
+    { "id": "app", "name": "移动 App", "weight": 46 },
+    { "id": "miniprogram", "name": "微信小程序", "weight": 30 },
+    { "id": "web", "name": "PC 商城", "weight": 16 },
+    { "id": "h5", "name": "移动 H5", "weight": 8 }
+  ],
+  "regions": [
+    { "id": "gd", "name": "广东", "weight": 25 },
+    { "id": "zj", "name": "浙江", "weight": 20 },
+    { "id": "sh", "name": "上海", "weight": 17 },
+    { "id": "js", "name": "江苏", "weight": 15 },
+    { "id": "bj", "name": "北京", "weight": 13 },
+    { "id": "sc", "name": "四川", "weight": 10 }
+  ],
+  "products": [
+    { "id": "s101", "name": "主动降噪蓝牙耳机", "category": "digital", "price": 399 },
+    { "id": "s102", "name": "机械键盘 87 键", "category": "digital", "price": 329 },
+    { "id": "s103", "name": "智能运动手表", "category": "digital", "price": 599 },
+    { "id": "s104", "name": "便携快充电源", "category": "digital", "price": 159 },
+    { "id": "s201", "name": "轻羽绒立领外套", "category": "apparel", "price": 459 },
+    { "id": "s202", "name": "城市通勤托特包", "category": "apparel", "price": 189 },
+    { "id": "s203", "name": "舒适复古跑鞋", "category": "apparel", "price": 299 },
+    { "id": "s204", "name": "羊毛混纺围巾", "category": "apparel", "price": 129 },
+    { "id": "s301", "name": "珐琅铸铁炖锅", "category": "home", "price": 269 },
+    { "id": "s302", "name": "棉麻四件套", "category": "home", "price": 359 },
+    { "id": "s303", "name": "陶瓷咖啡杯", "category": "home", "price": 69 },
+    { "id": "s304", "name": "不锈钢保温水壶", "category": "home", "price": 139 },
+    { "id": "s401", "name": "保湿修护精华液", "category": "beauty", "price": 209 },
+    { "id": "s402", "name": "氨基酸洁面乳", "category": "beauty", "price": 89 },
+    { "id": "s403", "name": "植物精油身体乳", "category": "beauty", "price": 128 },
+    { "id": "s404", "name": "柔润护发礼盒", "category": "beauty", "price": 159 },
+    { "id": "s501", "name": "精品挂耳咖啡", "category": "food", "price": 79 },
+    { "id": "s502", "name": "每日坚果礼盒", "category": "food", "price": 99 },
+    { "id": "s503", "name": "高山乌龙茶", "category": "food", "price": 129 },
+    { "id": "s504", "name": "燕麦谷物早餐", "category": "food", "price": 39 }
+  ]
+}

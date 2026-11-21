@@ -1,0 +1,113 @@
+{
+  "overview": [
+    {
+      "name": "完整周与跨日用户去重",
+      "request": {
+        "start": "2026-11-14",
+        "end": "2026-11-20"
+      },
+      "expected": {
+        "gmv": 690406.8,
+        "orders": 2096,
+        "buyers": 1645,
+        "basket": 419.7,
+        "pieces": 3422
+      }
+    },
+    {
+      "name": "日期、渠道、品类、地区联合筛选",
+      "request": {
+        "start": "2026-11-20",
+        "end": "2026-11-20",
+        "region": "gd",
+        "category": "digital",
+        "channel": "app"
+      },
+      "expected": {
+        "gmv": 680.12,
+        "orders": 2,
+        "buyers": 2,
+        "basket": 340.06,
+        "pieces": 2
+      }
+    },
+    {
+      "name": "不匹配的品类与商品组合",
+      "request": {
+        "start": "2026-11-14",
+        "end": "2026-11-20",
+        "category": "digital",
+        "product": "s504"
+      },
+      "expected": {
+        "gmv": 0,
+        "orders": 0,
+        "buyers": 0,
+        "basket": 0,
+        "pieces": 0
+      }
+    }
+  ],
+  "daily": {
+    "request": {
+      "start": "2026-11-14",
+      "end": "2026-11-20",
+      "page": 1,
+      "pageSize": 1
+    },
+    "expected": {
+      "rows": [
+        {
+          "date": "2026-11-20",
+          "gmv": 79236.08,
+          "orders": 231,
+          "buyers": 228,
+          "basket": 347.53,
+          "pieces": 381
+        }
+      ],
+      "page": 1,
+      "pageSize": 1,
+      "total": 7
+    }
+  },
+  "orderDetail": {
+    "order": {
+      "id": "TY2026112000029",
+      "buyerId": "M006250",
+      "date": "2026-11-20",
+      "region": "gd",
+      "channel": "web",
+      "amountCents": 76416,
+      "pieces": 4,
+      "createdAt": "2026-11-20T07:24:42+08:00",
+      "status": "PAID"
+    },
+    "items": [
+      {
+        "id": "TY2026112000029-1",
+        "orderId": "TY2026112000029",
+        "product": "s301",
+        "category": "home",
+        "quantity": 2,
+        "amountCents": 53800
+      },
+      {
+        "id": "TY2026112000029-2",
+        "orderId": "TY2026112000029",
+        "product": "s204",
+        "category": "apparel",
+        "quantity": 1,
+        "amountCents": 11352
+      },
+      {
+        "id": "TY2026112000029-3",
+        "orderId": "TY2026112000029",
+        "product": "s403",
+        "category": "beauty",
+        "quantity": 1,
+        "amountCents": 11264
+      }
+    ]
+  }
+}
